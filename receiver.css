@@ -1,9 +1,0 @@
-body {
-  --playback-logo-image: url('logo.png');
-}
-cast-media-player {
-  --theme-hue: 100;
-  --progress-color: rgb(0, 255, 0);
-  --splash-image: url('logo.png');
-  --splash-size: cover;
-}

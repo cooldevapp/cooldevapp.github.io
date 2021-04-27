@@ -1,24 +1,14 @@
-<html manifest="nocache.mf">
+<!DOCTYPE html>
+<html>
 <head>
-    <title>IMA Example receiver</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="//www.gstatic.com/cast/sdk/libs/caf_receiver/v3/cast_receiver_framework.js"></script>
-    <script src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
-    <script type="text/javascript" src="player.js"></script>
+    <link rel="stylesheet" href="receiver.css" media="screen" />
+    <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/caf_receiver/v3/cast_receiver_framework.js">
+    </script>
 </head>
 <body>
-<cast-media-player id="player"></cast-media-player>
-<div id="adContainer"></div>
-
-<script>
-    var player = new Player();
-
-    var div = document.createElement("DIV");
-    div.id = "someName";
-    var img = document.createElement("IMG");
-    img.src = imgURL;
-    div.appendChild(img);
-    document.body.appendChild(div);
-  </script>
+<cast-media-player></cast-media-player>
 </body>
+<footer>
+    <script src="receiver.js"></script>
+</footer>
 </html>

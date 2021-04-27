@@ -9,8 +9,16 @@
 <body>
 <cast-media-player id="player"></cast-media-player>
 <div id="adContainer"></div>
+
 <script>
     var player = new Player();
+
+    var div = document.createElement("DIV");
+    div.id = "someName";
+    var img = document.createElement("IMG");
+    img.src = imgURL;
+    div.appendChild(img);
+    document.body.appendChild(div);
   </script>
 </body>
 </html>

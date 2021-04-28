@@ -519,7 +519,7 @@ display: block;
 }
 
 .player.launching .logo {
-  background-image: url("assets/br-logo-blue-launch.png");
+  background-image: url("logo.png");
   margin-top: -28px;
   margin-left: -38px;
   width: 76px;
@@ -527,7 +527,7 @@ display: block;
 }
 
 .player .receiver-logo {
-    background-image: url("assets/br-logo-blue@2x.png");
+    background-image: url("logo.png");
 }
 
 /*
